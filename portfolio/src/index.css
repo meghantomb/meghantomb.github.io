@@ -1,0 +1,64 @@
+/* base parameters */
+
+body {
+    background-color: rgb(4, 12, 3);
+    color: rgb(249, 249, 239);
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+main {
+    width: 80%;
+    justify-self: center;
+}
+
+p, li {
+    font-size: larger;
+}
+
+/* hero */
+
+.hero {
+    position: relative
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* projects section */
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project {
+    text-align: center;
+}
+
+.project ul {
+    justify-self: center;
+    width: 80%
+}
+
+.project li {
+    text-align: left;
+}
+
+.project-photo {
+    justify-content: center;
+}
