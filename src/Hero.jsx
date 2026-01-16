@@ -6,6 +6,7 @@ export default function Hero() {
             <div className="hero-text">
                 <h1>Meghan Tomback</h1>
                 <h2>aspiring... everything</h2>
+                <p className="arrow">⌄</p>
             </div>
         </div>
     );

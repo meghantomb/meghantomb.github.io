@@ -6,9 +6,14 @@ body {
     margin: 0;
 }
 
+h1, h2, h3 {
+    font-family: "Zalando Sans", sans-serif;
+    font-weight: 900;
+}
+
 h3 {
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 main {
@@ -18,6 +23,9 @@ main {
 
 p, li {
     font-size: larger;
+    font-family: "Zalando Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
 }
 
 /* hero */
@@ -34,9 +42,23 @@ p, li {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: xx-large;
+    transform: translate(-50%, -45%);
+    font-size: xxx-large;
     text-align: center;
+}
+
+.arrow {
+    transform: translate(0, 18vh);
+}
+
+.hero-text h2 {
+    font-size: xxx-large;
+}
+
+/* about */
+
+.about {
+    font-size: x-large;
 }
 
 /* projects section */
@@ -48,6 +70,7 @@ p, li {
 
 .project {
     text-align: center;
+    margin: 10px;
 }
 
 .project ul {
@@ -61,4 +84,10 @@ p, li {
 
 .project-photo {
     justify-content: center;
+    margin: 1vw;
+}
+
+.project-photo img {
+    width: 100%;
+    border-radius: 10px;
 }
