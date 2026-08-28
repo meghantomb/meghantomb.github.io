@@ -1,5 +1,4 @@
 import Hero from "./Hero";
-import About from "./About";
 import Projects from "./Projects";
 
 export default function App() {
@@ -7,7 +6,6 @@ export default function App() {
         <>
             <Hero />
             <main>
-                <About />
                 <Projects />
             </main>
         </>
